@@ -30,5 +30,13 @@ aplikasi sederhana untuk mengimplementasikan message queue rabbitmq dan node.js
    docker container run rabbitmq2
    //dashboard web bisa dilihat pada http://localhost:15672
    ```
- 6. menjalankan kode producer.js
- 7. menjalankan kode consumer.js
+ 6. inisiasi proyek 
+   ```javascript
+   npm init -y
+   ```
+ 8. install package amqplib
+   ```javascript
+   npm install amqplib
+   ```
+ 10. jalankan kode producer.js
+ 11. jalankan kode consumer.js
