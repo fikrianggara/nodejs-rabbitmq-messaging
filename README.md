@@ -1,6 +1,14 @@
 # nodejs-rabbitmq-queue-messaging
 aplikasi sederhana untuk mengimplementasikan message queue rabbitmq dan node.js
 
+## tools yang digunakan
+ |tools | version |
+ |--|--|
+ | node.js | `v16.0.0` |
+ | package npm amqplib | `0.8.0` |
+ |docker|`20.10.8`|
+ | docker image rabbitmq | `3.9.13` , `3-management`|
+
 ## alur
  1. pull image rabbitmq dari docker hub, pastikan docker sudah terinstall
     ```javascript
