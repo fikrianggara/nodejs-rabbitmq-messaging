@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-rabbitmq-messaging",
+  "version": "1.0.0",
+  "description": "aplikasi sederhana untuk mengimplementasikan message queue rabbitmq dan node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikrianggara/nodejs-rabbitmq-messaging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fikrianggara/nodejs-rabbitmq-messaging/issues"
+  },
+  "homepage": "https://github.com/fikrianggara/nodejs-rabbitmq-messaging#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
