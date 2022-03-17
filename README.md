@@ -23,7 +23,7 @@ aplikasi sederhana untuk mengimplementasikan message queue rabbitmq dan node.js
  2. membuat container rabbitmq
    ```javascript
    //membuat container dengan nama rabbitmq2 dan mengekspos port 5672 dan 15672 dengan menggunakan image rabbitmq:3-management
-   docker container create --name rabbitmq2 -p 5672:5672 15672:15672 rabbitmq:3-management
+   docker container create --name rabbitmq2 -p 5672:5672 -p 15672:15672 rabbitmq:3-management
    ```
  4. menjalankan container
    ```javascript
