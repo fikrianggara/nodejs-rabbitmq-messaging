@@ -3,8 +3,8 @@ aplikasi sederhana untuk mengimplementasikan message queue rabbitmq dan node.js
 
 ## alur
  1. pull image rabbitmq dari docker hub, pastikan docker sudah terinstall
-    ```
-    #kode di terminal yang sudah terinstall docker
+    ```javascript
+    //kode di terminal yang sudah terinstall docker
     //pull image rabbitmq yang terbaru
     docker pull rabbitmq
     //pull image rabbitmq yang terbaru + managemen plugins
